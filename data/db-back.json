@@ -1,171 +1,171 @@
 {
-  "usuarios": [
+  "users": [
     {
-      "identificación": 1,
+      "id": 1,
       "usuario": "John Doe",
-      "correo electrónico": "john.due@gmail.com"
+      "email": "john.due@gmail.com"
     }
   ],
-  "héroes": [
+  "heroes": [
     {
       "id": "dc-batman",
-      "superhéroe": "Batman",
-      "editor": "DC Comics",
+      "superhero": "Batman",
+      "publisher": "DC Comics",
       "alter_ego": "Bruce Wayne",
       "first_appearance": "Detective Comics #27",
-      "personajes": "Bruce Wayne"
+      "characters": "Bruce Wayne"
     },
     {
       "id": "dc-superman",
-      "superhéroe": "Superman",
-      "editor": "DC Comics",
+      "superhero": "Superman",
+      "publisher": "DC Comics",
       "alter_ego": "Kal-El",
-      "first_appearance": "Cómics de acción n.° 1",
-      "personajes": "Kal-El"
+      "first_appearance": "Action Comics #1",
+      "characters": "Kal-El"
     },
     {
-      "id": "flash-dc",
-      "superhéroe": "Flash",
-      "editor": "DC Comics",
+      "id": "dc-flash",
+      "superhero": "Flash",
+      "publisher": "DC Comics",
       "alter_ego": "Jay Garrick",
-      "primera_aparición": "Flash Comics #1",
-      "personajes": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+      "first_appearance": "Flash Comics #1",
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
     },
     {
-      "id": "dc-verde",
-      "superhéroe": "Linterna Verde",
-      "editor": "DC Comics",
+      "id": "dc-green",
+      "superhero": "Green Lantern",
+      "publisher": "DC Comics",
       "alter_ego": "Alan Scott",
-      "first_appearance": "Cómics All-American n.° 16",
-      "personajes": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
+      "first_appearance": "All-American Comics #16",
+      "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
     },
     {
-      "id": "dc-flecha",
-      "superhéroe": "Flecha Verde",
-      "editor": "DC Comics",
+      "id": "dc-arrow",
+      "superhero": "Green Arrow",
+      "publisher": "DC Comics",
       "alter_ego": "Oliver Queen",
-      "first_appearance": "Más cómics divertidos n.° 73",
-      "personajes": "Oliver Queen"
+      "first_appearance": "More Fun Comics #73",
+      "characters": "Oliver Queen"
     },
     {
-      "id": "dc-maravilla",
-      "superhéroe": "Mujer Maravilla",
-      "editor": "DC Comics",
-      "alter_ego": "Princesa Diana",
-      "primera_aparición": "All Star Comics #8",
-      "personajes": "Princesa Diana"
+      "id": "dc-wonder",
+      "superhero": "Wonder Woman",
+      "publisher": "DC Comics",
+      "alter_ego": "Princess Diana",
+      "first_appearance": "All Star Comics #8",
+      "characters": "Princess Diana"
     },
     {
-      "id": "dc-marciano",
-      "superhéroe": "Martian Manhunter",
-      "editor": "DC Comics",
+      "id": "dc-martian",
+      "superhero": "Martian Manhunter",
+      "publisher": "DC Comics",
       "alter_ego": "J\"onn J\"onzz",
       "first_appearance": "Detective Comics #225",
-      "personajes": "Martian Manhunter"
+      "characters": "Martian Manhunter"
     },
     {
       "id": "dc-robin",
-      "superhéroe": "Robin/Nightwing",
-      "editor": "DC Comics",
+      "superhero": "Robin/Nightwing",
+      "publisher": "DC Comics",
       "alter_ego": "Dick Grayson",
       "first_appearance": "Detective Comics #38",
-      "personajes": "Dick Grayson"
+      "characters": "Dick Grayson"
     },
     {
-      "id": "dc-azul",
-      "superhéroe": "Escarabajo Azul",
-      "editor": "DC Comics",
+      "id": "dc-blue",
+      "superhero": "Blue Beetle",
+      "publisher": "DC Comics",
       "alter_ego": "Dan Garret",
-      "first_appearance": "Cómics de Hombres Misteriosos #1",
-      "personajes": "Dan Garret, Ted Kord, Jaime Reyes"
+      "first_appearance": "Mystery Men Comics #1",
+      "characters": "Dan Garret, Ted Kord, Jaime Reyes"
     },
     {
-      "id": "dc-negro",
-      "superhéroe": "Canario Negro",
-      "editor": "DC Comics",
+      "id": "dc-black",
+      "superhero": "Black Canary",
+      "publisher": "DC Comics",
       "alter_ego": "Dinah Drake",
-      "primera_aparición": "Flash Comics #86",
-      "personajes": "Dinah Drake, Dinah Lance"
+      "first_appearance": "Flash Comics #86",
+      "characters": "Dinah Drake, Dinah Lance"
     },
     {
-      "id": "araña-marvel",
-      "superhéroe": "El Hombre Araña",
-      "editor": "Marvel Comics",
+      "id": "marvel-spider",
+      "superhero": "Spider Man",
+      "publisher": "Marvel Comics",
       "alter_ego": "Peter Parker",
-      "first_appearance": "Fantasía asombrosa n.° 15",
-      "personajes": "Peter Parker"
+      "first_appearance": "Amazing Fantasy #15",
+      "characters": "Peter Parker"
     },
     {
-      "id": "capitan-marvel",
-      "superhéroe": "Capitán América",
-      "editor": "Marvel Comics",
+      "id": "marvel-captain",
+      "superhero": "Captain America",
+      "publisher": "Marvel Comics",
       "alter_ego": "Steve Rogers",
-      "first_appearance": "Cómics del Capitán América #1",
-      "personajes": "Steve Rogers"
+      "first_appearance": "Captain America Comics #1",
+      "characters": "Steve Rogers"
     },
     {
-      "id": "marvel-hierro",
-      "superhéroe": "Iron Man",
-      "editor": "Marvel Comics",
+      "id": "marvel-iron",
+      "superhero": "Iron Man",
+      "publisher": "Marvel Comics",
       "alter_ego": "Tony Stark",
-      "first_appearance": "Cuentos de suspenso #39",
-      "personajes": "Tony Stark"
+      "first_appearance": "Tales of Suspense #39",
+      "characters": "Tony Stark"
     },
     {
       "id": "marvel-thor",
-      "superhéroe": "Thor",
-      "editor": "Marvel Comics",
-      "alter_ego": "Thor Hijo de Odín",
-      "first_appearance": "Viaje al misterio n.° 83",
-      "personajes": "Thor Odinson"
+      "superhero": "Thor",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Thor Odinson",
+      "first_appearance": "Journey into Myster #83",
+      "characters": "Thor Odinson"
     },
     {
-      "id": "hulk-de-marvel",
-      "superhéroe": "Hulk",
-      "editor": "Marvel Comics",
+      "id": "marvel-hulk",
+      "superhero": "Hulk",
+      "publisher": "Marvel Comics",
       "alter_ego": "Bruce Banner",
-      "first_appearance": "El Increíble Hulk #1",
-      "personajes": "Bruce Banner"
+      "first_appearance": "The Incredible Hulk #1",
+      "characters": "Bruce Banner"
     },
     {
       "id": "marvel-wolverine",
-      "superhéroe": "Wolverine",
-      "editor": "Marvel Comics",
+      "superhero": "Wolverine",
+      "publisher": "Marvel Comics",
       "alter_ego": "James Howlett",
-      "first_appearance": "El Increíble Hulk #180",
-      "personajes": "James Howlett"
+      "first_appearance": "The Incredible Hulk #180",
+      "characters": "James Howlett"
     },
     {
       "id": "marvel-daredevil",
-      "superhéroe": "Daredevil",
-      "editor": "Marvel Comics",
+      "superhero": "Daredevil",
+      "publisher": "Marvel Comics",
       "alter_ego": "Matthew Michael Murdock",
-      "primera_aparición": "Daredevil #1",
-      "personajes": "Matthew Michael Murdock"
+      "first_appearance": "Daredevil #1",
+      "characters": "Matthew Michael Murdock"
     },
     {
-      "id": "ojo de halcón de marvel",
-      "superhéroe": "Ojo de halcón",
-      "editor": "Marvel Comics",
+      "id": "marvel-hawkeye",
+      "superhero": "Hawkeye",
+      "publisher": "Marvel Comics",
       "alter_ego": "Clinton Francis Barton",
-      "first_appearance": "Cuentos de suspenso #57",
-      "personajes": "Clinton Francis Barton"
+      "first_appearance": "Tales of Suspense #57",
+      "characters": "Clinton Francis Barton"
     },
     {
-      "id": "ciclope-marvel",
-      "superhéroe": "Cíclope",
-      "editor": "Marvel Comics",
+      "id": "marvel-cyclops",
+      "superhero": "Cyclops",
+      "publisher": "Marvel Comics",
       "alter_ego": "Scott Summers",
-      "primera_aparición": "X-Men #1",
-      "personajes": "Scott Summers"
+      "first_appearance": "X-Men #1",
+      "characters": "Scott Summers"
     },
     {
-      "id": "marvel-plata",
-      "superhéroe": "Silver Surfer",
-      "editor": "Marvel Comics",
+      "id": "marvel-silver",
+      "superhero": "Silver Surfer",
+      "publisher": "Marvel Comics",
       "alter_ego": "Norrin Radd",
-      "first_appearance": "Los Cuatro Fantásticos #48",
-      "personajes": "Norrin Radd"
+      "first_appearance": "The Fantastic Four #48",
+      "characters": "Norrin Radd"
     }
   ]
 }
