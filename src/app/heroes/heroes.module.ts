@@ -23,6 +23,7 @@ import { ConfirmDialogComponent } from './components/confirm-dialog/confirm-dial
     NewPageComponent,
     CardComponent,
 
+
     //Pipes
     HeroImagePipe,
       ConfirmDialogComponent

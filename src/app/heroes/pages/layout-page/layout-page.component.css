@@ -1,0 +1,43 @@
+/* Estilos generales del toolbar */
+.mat-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  /* Otros estilos que desees */
+}
+
+/* Media queries para pantallas pequeñas */
+@media (max-width: 768px) {
+  .mat-toolbar {
+    /* Ajustar estilos del toolbar en pantallas pequeñas */
+    font-size: 14px;
+    /* Ejemplo: reducir el tamaño de la fuente */
+    height: 56px;
+    /* Ejemplo: reducir la altura del toolbar */
+  }
+
+  /* Ocultar elementos del toolbar en pantallas pequeñas */
+  .mat-toolbar .elemento-a-ocultar {
+    display: none;
+  }
+}
+
+/* Media queries para pantallas medianas */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .mat-toolbar {
+    /* Ajustar estilos del toolbar en pantallas medianas */
+    font-size: 16px;
+    /* Ejemplo: ajustar el tamaño de la fuente */
+  }
+}
+
+/* Media queries para pantallas grandes */
+@media (min-width: 1025px) {
+  .mat-toolbar {
+    /* Ajustar estilos del toolbar en pantallas grandes */
+    font-size: 18px;
+    /* Ejemplo: ajustar el tamaño de la fuente */
+  }
+}
