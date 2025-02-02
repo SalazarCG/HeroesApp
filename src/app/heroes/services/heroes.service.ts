@@ -6,6 +6,7 @@ import { Hero } from '../interfaces/hero.interface';
 
 @Injectable({ providedIn: 'root' })
 export class HeroesService {
+
   private baseUrl: string = environments.baseUrl;
 
   constructor(private http: HttpClient) {}
@@ -36,8 +37,9 @@ export class HeroesService {
 
   deleteHero(id: string): Observable<boolean> {
     return this.http.delete(`${this.baseUrl}/heroes/${id}`).pipe(
+      map((resp) => true),
       catchError((err) => of(false)),
-      map((resp) => true)
+
     );
   }
 }
