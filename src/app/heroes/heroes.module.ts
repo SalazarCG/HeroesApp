@@ -13,7 +13,6 @@ import { HeroImagePipe } from './pipes/hero-image.pipe';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ConfirmDialogComponent } from './components/confirm-dialog/confirm-dialog.component';
 
-
 @NgModule({
   declarations: [
     HeroPageComponent,
@@ -23,11 +22,15 @@ import { ConfirmDialogComponent } from './components/confirm-dialog/confirm-dial
     NewPageComponent,
     CardComponent,
 
-
     //Pipes
     HeroImagePipe,
-      ConfirmDialogComponent
+    ConfirmDialogComponent,
   ],
-  imports: [CommonModule, HeroesRoutingModule, MaterialModule, ReactiveFormsModule],
+  imports: [
+    CommonModule,
+    HeroesRoutingModule,
+    MaterialModule,
+    ReactiveFormsModule,
+  ],
 })
 export class HeroesModule {}

@@ -6,7 +6,6 @@ import { Hero } from '../interfaces/hero.interface';
 
 @Injectable({ providedIn: 'root' })
 export class HeroesService {
-
   private baseUrl: string = environments.baseUrl;
 
   constructor(private http: HttpClient) {}
@@ -22,7 +21,7 @@ export class HeroesService {
   }
 
   getSuggestions(query: string): Observable<Hero[]> {
-    return this.http.get<Hero[]>(`${this.baseUrl}/heroes?q=${query}$_limit=6`);
+    return this.http.get<Hero[]>(`${this.baseUrl}/heroes?q=${query}&_limit=6`);
   }
 
   //CRUD
@@ -38,8 +37,7 @@ export class HeroesService {
   deleteHero(id: string): Observable<boolean> {
     return this.http.delete(`${this.baseUrl}/heroes/${id}`).pipe(
       map((resp) => true),
-      catchError((err) => of(false)),
-
+      catchError((err) => of(false))
     );
   }
 }
